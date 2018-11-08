@@ -7,7 +7,12 @@ public class Main
         String Name = "Dennis Cetin";
         int Alter = 25;
 
-        System.out.println(Name);
-        System.out.println(Alter);
+        /*String Fachhochschule Kufstein Tirol = "Fachhochschule Kufstein Tirol" _ hier mache ich eine neue Wertzuweisung*/
+
+        final String FH_KUFSTEIN_TIROL = "Fachhochschule Kufstein Tirol"; /*final verwandelt die Variable in eine Konstante um*/
+
+        System.out.println(Name);/*Gibt den Wert String von Name aus*/
+        System.out.println(Alter);/*Gibt den Wert von int Alter aus*/
+        System.out.println(fhKufsteinTirol);/*Gibt den Wert von String fhKufsteinTirol aus*/
     }
 }
