@@ -7,11 +7,5 @@ public class JavaClass2
     {
         System.out.println("FH Kufstein Tirol");
 
-
-
     }
-
-
-
-
 }
