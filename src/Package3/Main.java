@@ -1,9 +1,9 @@
 package Package3;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main {
+    private String nachname;
+
+    public static void main(String[] args) {
         String Name = "Dennis Cetin";
         int Alter = 25;
 
@@ -14,5 +14,8 @@ public class Main
         System.out.println(Name);/*Gibt den Wert String von Name aus*/
         System.out.println(Alter);/*Gibt den Wert von int Alter aus*/
         System.out.println(fhKufsteinTirol);/*Gibt den Wert von String fhKufsteinTirol aus*/
+
+        final String Bezeichner; /*Die Autovervollständigung genutzt und wird mit Str+Leertaste eingeleitet*/
+        ;
     }
 }
